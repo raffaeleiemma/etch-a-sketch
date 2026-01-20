@@ -24,6 +24,10 @@
 }
 .cell {
   flex: 1;
-  height: 100%;
   border-right: 1px solid black;
+}
+.begin,
+.opacity,
+.random {
+  display: none;
 }

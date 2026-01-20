@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,17 +7,18 @@
     <title>Etch a sketch</title>
   </head>
   <body>
-    <div class="slider-container">
-      <input
-        type="range"
-        min="8"
-        max="100"
-        value="16"
-        class="slider"
-        id="myRange"
-      />
-      <p>Size: <span id="slider-text"></span></p>
-    </div>
+    <button id="chooseSize" class="btn chooseSize" type="button">
+      Choose size!!!
+    </button>
+    <button id="drawing" class="btn begin" type="button">
+      Begin drawing!!!
+    </button>
+    <button id="opacity" class="btn opacity" type="button">
+      Start progressive opacity!!!
+    </button>
+    <button id="random" class="btn random" type="button">
+      Start random colour!!!
+    </button>
     <div class="gridContainer"></div>
     <!-- <div id="grid"></div> -->
     <script src="script.js"></script>
